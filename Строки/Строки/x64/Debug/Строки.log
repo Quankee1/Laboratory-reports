@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Other programs\Информатика\Строки\main.cpp(39,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Other programs\Информатика\Строки\main.cpp(52,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Строки.vcxproj -> C:\Other programs\Информатика\Строки\x64\Debug\Строки.exe

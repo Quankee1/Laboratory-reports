@@ -1,0 +1,4 @@
+﻿  main1.h
+C:\Other programs\Информатика\ООП\lab11\main1.h(30,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+main1.obj : error LNK2005: main уже определен в main.obj
+C:\Other programs\Информатика\ООП\lab11\x64\Debug\lab11.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

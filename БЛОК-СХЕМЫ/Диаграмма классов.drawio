@@ -1,0 +1,227 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Страница — 1" id="NUncA5-wIpk-ecmEd7UC">
+    <mxGraphModel dx="2607" dy="2689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-9" value="ARM" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-20" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-10" value="&lt;div&gt;&amp;nbsp;+ originalGeometryLeader :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ originalGeometryStudent&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ originalGeometryTeacher&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-9">
+          <mxGeometry y="26" width="460" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-9">
+          <mxGeometry y="90" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-12" value="+ ARM(parent : QWidget* = nullptr)&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;on_btnStudent_clicked() : void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ on_btnLeader_clicked() : void&lt;/div&gt;&lt;div&gt;+ on_btnTeacher_clicked() : void&lt;/div&gt;&lt;div&gt;+ eventFilter(obj : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;+ animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-9">
+          <mxGeometry y="98" width="460" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-13" value="Test" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2165" y="-70" width="460" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-14" value="&lt;div&gt;&amp;nbsp;+ originalGeometry1;:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ originalGeometry2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ originalGeometry3&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ originalGeometry4&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;QRect&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;currentProgress :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;int currentQuestion&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;int correctAnswersCount&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ egeScore&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;motivationScore&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;sanguine&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;choleric&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;melancholic&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;phlegmatic&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-13">
+          <mxGeometry y="26" width="460" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-13">
+          <mxGeometry y="250" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-16" value="+ ARM(parent : QWidget* = nullptr)&lt;div&gt;&lt;div&gt;- Test(parent : QDialog* = nullptr)&lt;/div&gt;&lt;div&gt;- onAnswerButtonClicked() : void&lt;/div&gt;&lt;div&gt;- onCloseButtonClicked() : void&lt;/div&gt;&lt;div&gt;- initializeTestData() : void&lt;/div&gt;&lt;div&gt;- updateQuestion() : void&lt;/div&gt;&lt;div&gt;- createTable() : void&lt;/div&gt;&lt;div&gt;- saveResultsToDatabase(fullName : const QString&amp;amp;, correctAnswersCount : int) : void&lt;/div&gt;&lt;div&gt;- calculateTemperamentType() : QString&lt;/div&gt;&lt;div&gt;- eventFilter(obj : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry :&amp;nbsp; const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- showFinalSlide() : void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-13">
+          <mxGeometry y="258" width="460" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-17" value="GiveFromTeacher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="550" width="560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-18" value="+ db : QSqlDatabase&amp;nbsp;&lt;div&gt;+ originalGeometry :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-17">
+          <mxGeometry y="26" width="560" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-17">
+          <mxGeometry y="70" width="560" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-20" value="&lt;div&gt;+ GiveFromTeacher(parent : QWidget* = nullptr)&lt;/div&gt;&lt;div&gt;- on_Save_clicked() : void&lt;/div&gt;&lt;div&gt;- initDB() : void&lt;/div&gt;&lt;div&gt;- loadLabs() : void&lt;/div&gt;&lt;div&gt;- eventFilter(obj : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-17">
+          <mxGeometry y="78" width="560" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-21" value="&lt;div&gt;LoginWindow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="881" y="310" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-22" value="&lt;div&gt;- currentRole :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QString&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- armWindow :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QWidget*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- originalGeometry :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QRect&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-21">
+          <mxGeometry y="26" width="560" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-21">
+          <mxGeometry y="80" width="560" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-24" value="&lt;div&gt;+ LoginWindow(role : const QString&amp;amp;, parent : QWidget* = nullptr, armWindow : QWidget* = nullptr)&lt;/div&gt;&lt;div&gt;+ on_btnLogin_clicked() : void&lt;/div&gt;&lt;div&gt;- setupUIForRole() : void&lt;/div&gt;&lt;div&gt;- eventFilter(obj : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-21">
+          <mxGeometry y="88" width="560" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-51" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.007;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NkB3fbVWUH5RM9dZKRk_-21" target="NkB3fbVWUH5RM9dZKRk_-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1" y="160" as="sourcePoint" />
+            <mxPoint x="-121" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-25" value="&lt;div&gt;MainWindowLeader&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="330" width="460" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-26" value="&lt;div&gt;+ originalGeometry : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;QRect originalGeometryLab;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;originalGeometryTest : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;originalGeometryComboLab : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;originalGeometryComboLab2 : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;originalGeometryComboTest1 : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;originalGeometryComboTest2 : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;originalGeometryComboTest3 : QRect&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-25">
+          <mxGeometry y="26" width="460" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-25">
+          <mxGeometry y="160" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-28" value="&lt;div&gt;+&amp;nbsp;MainWindowLeader(parent : QWidget* = nullptr)&lt;/div&gt;&lt;div&gt;+ on_btnLab_clicked() : void&lt;/div&gt;&lt;div&gt;+ on_btnTest_clicked() : void&lt;/div&gt;&lt;div&gt;+ on_btnSave_clicked() : void&lt;/div&gt;&lt;div&gt;+ onLabSelected(labName : const QString&amp;amp;) : void&lt;/div&gt;&lt;div&gt;+ on_btnShowMatchingTemperament_clicked() : void&lt;/div&gt;&lt;div&gt;- fillStudentComboBox() : void&lt;/div&gt;&lt;div&gt;- fillLabComboBox() : void&lt;/div&gt;&lt;div&gt;- fillTestComboBoxes() : void&lt;/div&gt;&lt;div&gt;- eventFilter(obj : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- animateComboBoxScale(comboBox : QComboBox*, startScale : qreal, endScale : qreal, originalGeometry : const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- showCheckboxDialog(studentName : const QString&amp;amp;, labName : const QString&amp;amp;) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-25">
+          <mxGeometry y="168" width="460" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-29" value="&lt;div&gt;MainWindowStudent&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="100" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-30" value="&lt;div&gt;- originalGeometry : QRect&lt;/div&gt;&lt;div&gt;- test: Test*&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-29">
+          <mxGeometry y="26" width="460" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-29">
+          <mxGeometry y="70" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-32" value="&lt;div&gt;+ MainWindowStudent(parent : QWidget* = nullptr)&lt;/div&gt;&lt;div&gt;# eventFilter(watched : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;- openTest() : void&lt;/div&gt;&lt;div&gt;- createStatusItem(done : bool) : QTableWidgetItem*&lt;/div&gt;&lt;div&gt;- loadStudentData() : void&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-29">
+          <mxGeometry y="78" width="460" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-33" value="&lt;div&gt;MainWindowTeacher&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="460" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-34" value="&lt;div&gt;- stats : QTableWidget*&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;- *btnGive : QPushButton&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;- btnMaterials : QPushButton*&lt;/div&gt;&lt;div&gt;- groupFilter : QComboBox*&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;- originalGeometry1 : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;- originalGeometry2 : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;- originalGeometry3 : QRect&amp;nbsp;&lt;/div&gt;&lt;div&gt;- originalGeometrygroup : QRect&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-33">
+          <mxGeometry y="26" width="460" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-33">
+          <mxGeometry y="160" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-36" value="&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MainWindowTeacher(parent : QWidget* = nullptr)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- setupUI() : void&lt;/div&gt;&lt;div&gt;- populateTable() : void&lt;/div&gt;&lt;div&gt;- applyGroupFilter() : void&lt;/div&gt;&lt;div&gt;- sortByRating() : void&lt;/div&gt;&lt;div&gt;- eventFilter(obj : QObject*, event : QEvent*) : bool&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- animateComboBoxScale(comboBox : QComboBox*, startScale : qreal, endScale : qreal, originalGeometry : const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- onGiveClicked() : void&lt;/div&gt;&lt;div&gt;- onMaterialsClicked() : void&lt;/div&gt;&lt;div&gt;- onGroupFilterChanged() : void&lt;/div&gt;&lt;div&gt;- onStudentClicked(row : int, column : int) : void&lt;/div&gt;&lt;div&gt;- onLabsClicked() : void&lt;/div&gt;&lt;div&gt;- openGraphForStudent(studentName : const QString&amp;amp;) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-33">
+          <mxGeometry y="168" width="460" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-65" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.458;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NkB3fbVWUH5RM9dZKRk_-33" target="NkB3fbVWUH5RM9dZKRk_-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="418.7500000000001" as="sourcePoint" />
+            <mxPoint x="340" y="418.7500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-37" value="&lt;div&gt;SendEmailWindow&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-38" value="&lt;div&gt;- selectedFilePath : QString&amp;nbsp;&lt;/div&gt;&lt;div&gt;- originalGeometrySend : QRect&lt;/div&gt;&lt;div&gt;- originalGeometrySelect : QRect&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-37">
+          <mxGeometry y="26" width="460" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-37">
+          <mxGeometry y="90" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-40" value="&lt;div&gt;+ SendEmailWindow(parent : QWidget* = nullptr)&lt;/div&gt;&lt;div&gt;- onSelectFile() : void&lt;/div&gt;&lt;div&gt;- onSendClicked() : void&lt;/div&gt;&lt;div&gt;- sendEmail(recipientEmail : const QString&amp;amp;, filePath : const QString&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- animateButtonScale(widget : QWidget*, start : qreal, end : qreal, baseGeometry : const QRect&amp;amp;) : void&lt;/div&gt;&lt;div&gt;- loadLeaders() : void&lt;/div&gt;&lt;div&gt;# eventFilter(watched : QObject*, event : QEvent*) : bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-37">
+          <mxGeometry y="98" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-41" value="TemperamentDialog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="440" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-42" value="&lt;div&gt;+ TemperamentDialog(temperament : const QString&amp;amp;, students : const QStringList&amp;amp;, parent : QWidget* = nullptr)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NkB3fbVWUH5RM9dZKRk_-41">
+          <mxGeometry y="26" width="470" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-45" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2030" y="480" as="sourcePoint" />
+            <mxPoint x="2160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-46" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2030" y="190" as="sourcePoint" />
+            <mxPoint x="2165" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-47" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="751" y="429.3800000000001" as="sourcePoint" />
+            <mxPoint x="881" y="429.3800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2030" y="460" as="sourcePoint" />
+            <mxPoint x="2160" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1441" y="460" as="sourcePoint" />
+            <mxPoint x="1571" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-50" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=-0.005;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NkB3fbVWUH5RM9dZKRk_-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1441" y="380" as="sourcePoint" />
+            <mxPoint x="1510" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="380" />
+              <mxPoint x="1510" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1160" y="200" as="sourcePoint" />
+            <mxPoint x="1160" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-57" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-58" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-59" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-60" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1433" y="357" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-64" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2029" y="436" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-66" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-67" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.524;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.522;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NkB3fbVWUH5RM9dZKRk_-36" target="NkB3fbVWUH5RM9dZKRk_-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="607" y="679" as="sourcePoint" />
+            <mxPoint x="480" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-68" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="751" y="600.0000000000001" as="sourcePoint" />
+            <mxPoint x="890" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-70" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=-0.004;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.998;exitY=0.715;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NkB3fbVWUH5RM9dZKRk_-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750.0000000000001" y="570.904" as="sourcePoint" />
+            <mxPoint x="889.6000000000003" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-71" value="открывает" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="540" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-73" value="" style="endArrow=block;dashed=1;endFill=1;endSize=12;html=1;rounded=0;strokeColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1450" y="650" as="sourcePoint" />
+            <mxPoint x="1570" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-75" value="" style="endArrow=block;dashed=1;endFill=1;endSize=12;html=1;rounded=0;strokeColor=default;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1838" y="330" as="sourcePoint" />
+            <mxPoint x="1838" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkB3fbVWUH5RM9dZKRk_-76" value="" style="endArrow=block;dashed=1;endFill=1;endSize=12;html=1;rounded=0;strokeColor=default;entryX=0.639;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NkB3fbVWUH5RM9dZKRk_-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2460" y="410" as="sourcePoint" />
+            <mxPoint x="2580" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

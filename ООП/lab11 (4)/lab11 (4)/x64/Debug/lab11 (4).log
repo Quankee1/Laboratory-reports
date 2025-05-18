@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Other programs\Информатика\ООП\lab11 (4)\main.cpp(57,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+      C:\Other programs\Информатика\ООП\lab11 (4)\main.cpp(57,30):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Other programs\Информатика\ООП\lab11 (4)\main.cpp(132,16):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "List<Pair>"
+          C:\Other programs\Информатика\ООП\lab11 (4)\main.cpp(42,10):
+          во время компиляции функции-члена класс шаблон "void List<Pair>::add_average(void)"
+              C:\Other programs\Информатика\ООП\lab11 (4)\main.cpp(152,32):
+              см. первую ссылку на "List<Pair>::add_average" в "main"
+  
+  lab11 (4).vcxproj -> C:\Other programs\Информатика\ООП\lab11 (4)\x64\Debug\lab11 (4).exe
